@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: tomato;
+    color: springgreen;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+@media (max-width: 786px) {
+    .container {
+        max-width: 100%;
+    }
+}
