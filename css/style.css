@@ -90,6 +90,32 @@ img {
     height: 19px;
 }
 
+/* Search */
+.search-box {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #4eda91ce;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.search-box input {
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 14px 22px;
+    border-radius: 5px;
+}
+
+.search-btn {
+    align-items: center;
+}
+
+.search-btn__icon {
+    width: 18px;
+    height: 18px;
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 930px;
