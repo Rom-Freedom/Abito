@@ -128,6 +128,24 @@ img {
     line-height: 19px;
 }
 
+/* CONTENT */
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content-main {
+    border: 1px solid #000;
+    flex-grow: 1;
+}
+
+.content-side {
+    border: 1px solid #000;
+    width: 260px;
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 930px;
@@ -155,5 +173,17 @@ img {
 
     .search-btn__text {
         display: none;
+    }
+
+    .content-box {
+        flex-direction: column;
+    }
+
+    .content-main {
+        width: 100%;
+    }
+    
+    .content-side {
+        width: 100%;
     }
 }
