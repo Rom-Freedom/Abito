@@ -167,7 +167,13 @@ img {
 }
 
 .content-main__list-item--img {
+    width: 100%;
+    height: 70%;
+    display: flex;
     margin-bottom: 15px;
+}
+.content-main__list-item--img img {
+    width: 100%;
 }
 
 .content-main__list-item--title {
